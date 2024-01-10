@@ -1,9 +1,9 @@
 """
     Day 6 of 30 Days of Python Exercise
-    @ Abubakar
+    
 """
 """
-    Excerise Level 1
+    Level 1
 """
 
 # Question 1: Create an empty tuple
@@ -11,8 +11,8 @@ name = ()
 name = tuple()
 
 # Question 2: Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
-brothers = ('sani', 'bello', 'nasir')
-sisters = ('asiya', 'maryam')
+brothers = ('abdul', 'fahad', 'ahmad')
+sisters = ('hauwau', 'fatima')
 
 
 # Question 3: Join brothers and sisters tuples and assign it to siblings
@@ -26,21 +26,21 @@ print()
 
 # Question 5: Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 family_member = list(siblings)
-family_member.append('Bello')
-family_member.append('Binto')
+family_member.append('Mustapha')
+family_member.append('Shafa')
 family_member = tuple(family_member)
 print(family_member)
 print()
 
 """
-    Excerise Level 2
+    Level 2
 """
 
 # Question 1: Unpack siblings and parents from family_members
 
 # Question 2: Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
-fruits = ('Mango', 'Orange', 'Banana')
-vegetables = ('water leaf', 'Zogale')
+fruits = ('Apple', 'Guava', 'Peer')
+vegetables = ('water leaf', 'Olive')
 animal_product = ('Milk', 'Meat')
 food_stuff_tp = fruits + vegetables + animal_product
 print(food_stuff_tp)
